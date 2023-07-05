@@ -446,54 +446,54 @@ Number of documents returned: 105
 Document title: Review 761
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.8271
-Weight: 8.050121749518105
--------------------------
-Document title: Review 328
-Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
-Sentiment: 0.7383
-Weight: 4.790557278579145
--------------------------
-Document title: Review 578
-Content: Service was good and the company was better!
-Sentiment: 0.7263
-Weight: 4.712693690142263
--------------------------
-Document title: Review 301
-Content: Good beer & drink selection and good food selection.
-Sentiment: 0.7003
-Weight: 4.54398924852902
+Weight: 4.015338233473483
 -------------------------
 Document title: Review 690
 Content: Good food , good service .
 Sentiment: 0.7003
-Weight: 4.54398924852902
+Weight: 3.5784258240665126
+-------------------------
+Document title: Review 578
+Content: Service was good and the company was better!
+Sentiment: 0.7263
+Weight: 3.4100129062030837
 -------------------------
 Document title: Review 604
 Content: Good value, great food, great service.
 Sentiment: 0.926
-Weight: 3.0042367871896847
+Weight: 3.239170853627376
 -------------------------
-Document title: Review 457
-Content: The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc.
-Sentiment: 0.9162
-Weight: 2.972442488577958
+Document title: Review 301
+Content: Good beer & drink selection and good food selection.
+Sentiment: 0.7003
+Weight: 3.159695148932288
 -------------------------
-Document title: Review 834
-Content: Best service and food ever, Maria our server was so good and friendly she made our day.
-Sentiment: 0.9082
-Weight: 2.9464879590989974
+Document title: Review 684
+Content: Very good food, great atmosphere.1
+Sentiment: 0.8204
+Weight: 3.0545173042645537
+-------------------------
+Document title: Review 347
+Content: This place is like Chipotle, but BETTER.
+Sentiment: 0.7717
+Weight: 2.87319722537903
+-------------------------
+Document title: Review 861
+Content: This place is pretty good, nice little vibe in the restaurant.
+Sentiment: 0.836
+Weight: 2.7575701996948623
+-------------------------
+Document title: Review 346
+Content: Pretty good beer selection too.
+Sentiment: 0.7269
+Weight: 2.706397645623969
 -------------------------
 Document title: Review 356
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.9022
-Weight: 2.927022061989777
+Weight: 2.6712453956169018
 -------------------------
-Document title: Review 332
-Content: Both of them were truly unbelievably good, and I am so glad we went back.
-Sentiment: 0.8738
-Weight: 2.834883482339467
--------------------------
-DCG = 393.9249092243504
+DCG = 82.41948335947917
 -------------------------
 
 Query to analize: good AND nice
@@ -502,9 +502,9 @@ Number of documents returned: 1
 Document title: Review 861
 Content: This place is pretty good, nice little vibe in the restaurant.
 Sentiment: 0.836
-Weight: 6.537408773273974
+Weight: 6.646649354832209
 -------------------------
-DCG = 91.8872562522914
+DCG = 99.19379498867494
 -------------------------
 
 Query to analize: bad OR disgusting
@@ -513,54 +513,54 @@ Number of documents returned: 36
 Document title: Review 232
 Content: If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.
 Sentiment: 0.5647
-Weight: 4.9483472355809335
--------------------------
-Document title: Review 124
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.8481
-Weight: 3.715860891177784
+Weight: 2.879326176420523
 -------------------------
 Document title: Review 322
 Content: Also, the fries are without a doubt the worst fries I've ever had.
 Sentiment: 0.6602
-Weight: 2.8925968168324174
+Weight: 2.6398283869056427
+-------------------------
+Document title: Review 124
+Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
+Sentiment: 0.8481
+Weight: 1.975405029491867
 -------------------------
 Document title: Review 15
 Content: I was disgusted because I was pretty sure that was human hair.
 Sentiment: 0.2732
-Weight: 1.7207003045409235
+Weight: 1.5703375883053377
 -------------------------
 Document title: Review 453
 Content: I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.
 Sentiment: -0.0
 Weight: -0.0
 -------------------------
-Document title: Review 977
-Content: too bad cause I know it's family owned, I really wanted to like this place.
-Sentiment: -0.1868
-Weight: -0.8184445401155643
--------------------------
 Document title: Review 850
 Content: Bad day or not, I have a very low tolerance for rude customer service people, it is your job to be nice and polite, wash dishes otherwise!!
 Sentiment: -0.1962
-Weight: -0.8596296508066046
+Weight: -0.5775500042013344
 -------------------------
-Document title: Review 225
-Content: It was either too cold, not enough flavor or just bad.
-Sentiment: -0.5423
-Weight: -2.376030375292669
+Document title: Review 977
+Content: too bad cause I know it's family owned, I really wanted to like this place.
+Sentiment: -0.1868
+Weight: -0.7105506370543742
 -------------------------
-Document title: Review 455
-Content: The last 3 times I had lunch here has been bad.
-Sentiment: -0.5423
-Weight: -2.376030375292669
+Document title: Review 127
+Content: Bland... Not a liking this place for a number of reasons and I don't want to waste time on bad reviewing.. I'll leave it at that...
+Sentiment: -0.5496
+Weight: -1.8240787861344339
 -------------------------
-Document title: Review 737
-Content: Friend's pasta -- also bad, he barely touched it.
-Sentiment: -0.5423
-Weight: -2.376030375292669
+Document title: Review 959
+Content: My husband said she was very rude... did not even apologize for the bad food or anything.
+Sentiment: -0.5853
+Weight: -1.9425642531377079
 -------------------------
-DCG = 47.43236220476652
+Document title: Review 849
+Content: To my disbelief, each dish qualified as the worst version of these foods I have ever tasted.
+Sentiment: -0.6249
+Weight: -2.166030558299194
+-------------------------
+DCG = 13.53935273012676
 -------------------------
 
 Query to analize: "loved this place"
@@ -569,84 +569,84 @@ Number of documents returned: 5
 Document title: Review 335
 Content: I love this place.
 Sentiment: 0.6369
-Weight: 4.839040190047672
+Weight: 6.88247074552907
 -------------------------
 Document title: Review 815
 Content: I love this place.
 Sentiment: 0.6369
-Weight: 4.839040190047672
--------------------------
-Document title: Review 1
-Content: Wow... Loved this place.
-Sentiment: 0.5994
-Weight: 4.554122609380711
+Weight: 6.88247074552907
 -------------------------
 Document title: Review 460
 Content: We loved the place.
 Sentiment: 0.5994
-Weight: 4.554122609380711
+Weight: 6.477238129800792
+-------------------------
+Document title: Review 1
+Content: Wow... Loved this place.
+Sentiment: 0.5994
+Weight: 5.998659837817383
 -------------------------
 Document title: Review 185
 Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
 Sentiment: 0.5574
-Weight: 4.235014919033714
+Weight: 3.3503996553372053
 -------------------------
-DCG = 118.05902413512732
+DCG = 394.20457534267734
 -------------------------
 
 Query to analize: dinner OR lunch
 Number of documents returned: 17
-Document title: Review 79
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.7269
-Weight: 4.00511723849498
--------------------------
-Document title: Review 421
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.6865
-Weight: 4.00113738065803
--------------------------
 Document title: Review 382
 Content: They have great dinners.
 Sentiment: 0.6249
-Weight: 3.642113254440208
+Weight: 4.79736721606707
 -------------------------
 Document title: Review 772
 Content: Great time - family dinner on a Sunday night.
 Sentiment: 0.6249
-Weight: 3.642113254440208
+Weight: 3.9269298444443126
 -------------------------
 Document title: Review 837
 Content: Just had lunch here and had a great experience.
 Sentiment: 0.6249
-Weight: 3.4431115178642355
--------------------------
-Document title: Review 443
-Content: Anyway, this FS restaurant has a wonderful breakfast/lunch.
-Sentiment: 0.5719
-Weight: 3.1510889375364957
+Weight: 3.500646164637284
 -------------------------
 Document title: Review 206
 Content: Very good lunch spot.
 Sentiment: 0.4927
-Weight: 2.714708025046742
+Weight: 3.3297712220615523
 -------------------------
-Document title: Review 920
-Content: What SHOULD have been a hilarious, yummy Christmas Eve dinner to remember was the biggest fail of the entire trip for us.
-Sentiment: 0.3818
-Weight: 2.2252501849020185
+Document title: Review 443
+Content: Anyway, this FS restaurant has a wonderful breakfast/lunch.
+Sentiment: 0.5719
+Weight: 3.2037438655081814
+-------------------------
+Document title: Review 79
+Content: Today is the second time I've been to their lunch buffet and it was pretty good.
+Sentiment: 0.7269
+Weight: 3.1685232925933544
+-------------------------
+Document title: Review 421
+Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
+Sentiment: 0.6865
+Weight: 3.0308744584840976
 -------------------------
 Document title: Review 926
 Content: I could barely stomach the meal, but didn't complain because it was a business lunch.
 Sentiment: 0.395
-Weight: 2.176394702442588
+Weight: 1.721786628937096
+-------------------------
+Document title: Review 920
+Content: What SHOULD have been a hilarious, yummy Christmas Eve dinner to remember was the biggest fail of the entire trip for us.
+Sentiment: 0.3818
+Weight: 1.6169290706755128
 -------------------------
 Document title: Review 441
 Content: I'll take my business dinner dollars elsewhere.
 Sentiment: 0.0
 Weight: 0.0
 -------------------------
-DCG = 83.559561396327
+DCG = 88.13335760567448
 -------------------------
 RUN
 
@@ -659,57 +659,57 @@ BM25F
 Query to analize: good
 
 Number of documents returned: 105
-Document title: Review 761
-Content: Food was good, service was good, Prices were good.
-Sentiment: 0.6999999999999998
-Weight: 6.813063988227146
--------------------------
-Document title: Review 301
-Content: Good beer & drink selection and good food selection.
-Sentiment: 0.7
-Weight: 4.542042658818097
--------------------------
-Document title: Review 690
-Content: Good food , good service .
-Sentiment: 0.7
-Weight: 4.542042658818097
--------------------------
-Document title: Review 578
-Content: Service was good and the company was better!
-Sentiment: 0.6625
-Weight: 4.298718944952842
--------------------------
 Document title: Review 110
 Content: Sooooo good!!
 Sentiment: 1.0
-Weight: 3.24431618487007
+Weight: 4.6143264686121075
 -------------------------
 Document title: Review 471
 Content: Very good, though!
 Sentiment: 1.0
-Weight: 3.24431618487007
+Weight: 4.273391576957887
 -------------------------
-Document title: Review 300
-Content: The food was excellent and service was very good.
-Sentiment: 0.955
-Weight: 3.0983219565509166
+Document title: Review 563
+Content: A good time!
+Sentiment: 0.875
+Weight: 4.037535660035594
 -------------------------
-Document title: Review 328
-Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
-Sentiment: 0.47
-Weight: 3.0496572137778655
+Document title: Review 305
+Content: Good Service-check!
+Sentiment: 0.875
+Weight: 3.739217629838151
 -------------------------
 Document title: Review 206
 Content: Very good lunch spot.
 Sentiment: 0.9099999999999999
-Weight: 2.9523277282317633
+Weight: 3.6212277036279885
 -------------------------
 Document title: Review 313
 Content: The food was very good.
 Sentiment: 0.9099999999999999
-Weight: 2.9523277282317633
+Weight: 3.6212277036279885
 -------------------------
-DCG = 219.99476615428017
+Document title: Review 690
+Content: Good food , good service .
+Sentiment: 0.7
+Weight: 3.576892869979378
+-------------------------
+Document title: Review 216
+Content: Waitress was good though!
+Sentiment: 0.875
+Weight: 3.4819497150269125
+-------------------------
+Document title: Review 310
+Content: I did not expect this to be so good!
+Sentiment: 0.875
+Weight: 3.4819497150269125
+-------------------------
+Document title: Review 531
+Content: Everything was good and tasty!
+Sentiment: 0.875
+Weight: 3.4819497150269125
+-------------------------
+DCG = 133.67085311546415
 -------------------------
 
 Query to analize: good AND nice
@@ -718,9 +718,9 @@ Number of documents returned: 1
 Document title: Review 861
 Content: This place is pretty good, nice little vibe in the restaurant.
 Sentiment: 0.34062499999999996
-Weight: 2.6636421810962285
+Weight: 2.7081518379063647
 -------------------------
-DCG = 5.3363067543177065
+DCG = 5.53483965853297
 -------------------------
 
 Query to analize: bad OR disgusting
@@ -729,54 +729,54 @@ Number of documents returned: 36
 Document title: Review 124
 Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
 Sentiment: 0.4
-Weight: 1.7525579017463906
+Weight: 0.9316849567229654
 -------------------------
 Document title: Review 850
 Content: Bad day or not, I have a very low tolerance for rude customer service people, it is your job to be nice and polite, wash dishes otherwise!!
 Sentiment: -0.015624999999999944
-Weight: -0.06845929303696813
+Weight: -0.045994999060376233
 -------------------------
 Document title: Review 15
 Content: I was disgusted because I was pretty sure that was human hair.
 Sentiment: -0.0625
-Weight: -0.39364483540925227
+Weight: -0.3592463370025022
 -------------------------
 Document title: Review 453
 Content: I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.
 Sentiment: -0.11999999999999995
-Weight: -1.051534741047834
+Weight: -0.5260181738490199
 -------------------------
 Document title: Review 977
 Content: too bad cause I know it's family owned, I really wanted to like this place.
 Sentiment: -0.24999999999999992
-Weight: -1.0953486885914936
+Weight: -0.9509510667215926
 -------------------------
-Document title: Review 737
-Content: Friend's pasta -- also bad, he barely touched it.
-Sentiment: -0.3249999999999999
-Weight: -1.4239532951689418
--------------------------
-Document title: Review 47
-Content: It's too bad the food is so damn generic.
-Sentiment: -0.3499999999999999
-Weight: -1.5334881640280913
--------------------------
-Document title: Review 455
-Content: The last 3 times I had lunch here has been bad.
-Sentiment: -0.3499999999999999
-Weight: -1.5334881640280913
+Document title: Review 232
+Content: If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.
+Sentiment: -0.19999999999999996
+Weight: -1.019771976773693
 -------------------------
 Document title: Review 127
 Content: Bland... Not a liking this place for a number of reasons and I don't want to waste time on bad reviewing.. I'll leave it at that...
 Sentiment: -0.35555555555555546
-Weight: -1.557829245996791
+Weight: -1.1800606735464554
 -------------------------
 Document title: Review 493
 Content: Worse of all, he humiliated his worker right in front of me..Bunch of horrible name callings.
 Sentiment: -0.37142857142857144
-Weight: -1.627375194478791
+Weight: -1.232741953615494
 -------------------------
-DCG = -2.2381975116822135
+Document title: Review 737
+Content: Friend's pasta -- also bad, he barely touched it.
+Sentiment: -0.3249999999999999
+Weight: -1.4477476594913856
+-------------------------
+Document title: Review 455
+Content: The last 3 times I had lunch here has been bad.
+Sentiment: -0.3499999999999999
+Weight: -1.4749926081065838
+-------------------------
+DCG = -3.0461803220889285
 -------------------------
 
 Query to analize: "loved this place"
@@ -785,72 +785,72 @@ Number of documents returned: 5
 Document title: Review 460
 Content: We loved the place.
 Sentiment: 0.7
-Weight: 5.3184615057832785
--------------------------
-Document title: Review 185
-Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
-Sentiment: 0.5
-Weight: 3.7989010755594848
+Weight: 7.564342160261185
 -------------------------
 Document title: Review 335
 Content: I love this place.
 Sentiment: 0.5
-Weight: 3.7989010755594848
+Weight: 5.403101543043704
 -------------------------
 Document title: Review 815
 Content: I love this place.
 Sentiment: 0.5
-Weight: 3.7989010755594848
+Weight: 5.403101543043704
 -------------------------
 Document title: Review 1
 Content: Wow... Loved this place.
 Sentiment: 0.39999999999999997
-Weight: 3.0391208604475874
+Weight: 4.003109668213135
 -------------------------
-DCG = 84.87851097593864
+Document title: Review 185
+Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
+Sentiment: 0.5
+Weight: 3.0053818221539337
+-------------------------
+DCG = 292.969950377739
 -------------------------
 
 Query to analize: dinner OR lunch
 Number of documents returned: 17
-Document title: Review 443
-Content: Anyway, this FS restaurant has a wonderful breakfast/lunch.
-Sentiment: 1.0
-Weight: 5.509860006183766
--------------------------
 Document title: Review 206
 Content: Very good lunch spot.
 Sentiment: 0.9099999999999999
-Weight: 5.0139726056272265
+Weight: 6.149973233359066
 -------------------------
 Document title: Review 382
 Content: They have great dinners.
 Sentiment: 0.8
-Weight: 4.662650989841842
+Weight: 6.1416126945969856
+-------------------------
+Document title: Review 443
+Content: Anyway, this FS restaurant has a wonderful breakfast/lunch.
+Sentiment: 1.0
+Weight: 5.601930172247214
 -------------------------
 Document title: Review 772
 Content: Great time - family dinner on a Sunday night.
 Sentiment: 0.8
-Weight: 4.662650989841842
+Weight: 5.027274564819091
 -------------------------
 Document title: Review 837
 Content: Just had lunch here and had a great experience.
 Sentiment: 0.8
-Weight: 4.407888004947013
+Weight: 4.481544137797772
 -------------------------
 Document title: Review 421
 Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
 Sentiment: 0.495
-Weight: 2.885015299964639
+Weight: 2.1854083859426487
 -------------------------
 Document title: Review 79
 Content: Today is the second time I've been to their lunch buffet and it was pretty good.
 Sentiment: 0.31666666666666665
-Weight: 1.7447890019581924
+Weight: 1.3803352721436632
 -------------------------
 Document title: Review 926
 Content: I could barely stomach the meal, but didn't complain because it was a business lunch.
 Sentiment: 0.05
-Weight: 0.27549300030918833
+Weight: 0.2179476745489995
 -------------------------
 Document title: Review 441
 Content: I'll take my business dinner dollars elsewhere.
@@ -862,5 +862,5 @@ Content: Tried to go here for lunch and it was a madhouse.
 Sentiment: 0.0
 Weight: 0.0
 -------------------------
-DCG = 153.70912919456205
+DCG = 245.4452395936848
 -------------------------

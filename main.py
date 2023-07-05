@@ -17,7 +17,7 @@ import csv
 import argparse
 from math import log
 
-def run_query(f, query, filter, sentiment_filter=None):
+def run_query(f, query, filter, ranking, sentiment_filter=None):
     f.write("\nQuery to analize: "+query)
     ix = open_dir("indexdir")
 
@@ -93,10 +93,10 @@ def run(f, documents_list, schema, ranking=1, sentiment=1, test_query=None):
             filter_value = int(input("Insert -1 for negative reviews or 1 for positive reviews: "))
             sentiment_filter = SentimentFilter(filter_value)
 
-        run_query(f, query, filter, sentiment_filter)
+        run_query(f, query, filter, ranking,sentiment_filter)
     else:
         for query in test_query:
-            run_query(f, query, "0")
+            run_query(f, query, "0", ranking)
 
 
 if __name__ == '__main__':
