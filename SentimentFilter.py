@@ -2,7 +2,6 @@ from whoosh.query import NumericRange
 
 
 class SentimentFilter(NumericRange):
-    sentiment_filter = None
 
     def __init__(self, mode):
         if mode > 0:  # positive review filter

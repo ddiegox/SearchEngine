@@ -2,6 +2,7 @@ from whoosh.index import create_in, open_dir
 from whoosh.fields import *
 from whoosh.qparser import QueryParser, MultifieldParser
 from whoosh.query import NumericRange, And
+from whoosh import scoring
 
 from LemmaFilter import LemmaFilter
 from whoosh.analysis import RegexTokenizer, LowercaseFilter, StopFilter, StemFilter
@@ -9,10 +10,30 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from SentimentFilter import SentimentFilter
 from SentimentWeighting import SentimentWeighting
+from RankingScorer import RankingScorer
+from textblob import TextBlob
+
 import os, os.path
 import csv
+import argparse
+
+def decoratorFn(ranking=1):
+    def pos_score_fn(searcher, fieldname, text, matcher):
+        if ranking==2:
+            return scoring.BM25F().scorer(searcher, fieldname, text).score(matcher)
+        else:
+            return scoring.TF_IDF().scorer(searcher, fieldname, text).score(matcher)
+    return pos_score_fn
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Search Restaurant Reviews")
+    parser.add_argument('-s', '--sentiment', default=1, type=int, help="Indica la libreria di Sentiment Analysis da utilizzare (1-Vader, 2-Textblob), default: Vader")
+    parser.add_argument('-r', '--ranking', default=1, type=int, help="Indica la funzione di ranking da utilizzare (1-TF-IDF (modello vettoriale), 2-BM25 (modello probabilistico)), default: TF-IDF")
+    args = parser.parse_args()
+
+    sentiment = int(args.sentiment)
+    ranking = int(args.ranking)
+
     nltk.download('wordnet')
     nltk.download('vader_lexicon')
 
@@ -45,7 +66,7 @@ if __name__ == '__main__':
     #create writer
     writer = ix.writer()
 
-    #create sentiment intensity analyzer
+    #create sentiment intensity analyzer (Vader)
     sentiment_analyzer = SentimentIntensityAnalyzer()
 
     title = "Review"
@@ -55,24 +76,33 @@ if __name__ == '__main__':
         document_title = title + " " + str(num_document)
         num_document = num_document + 1
 
-        polarity = sentiment_analyzer.polarity_scores(content)
+        #calculate sentiment and add document to index
+        if sentiment == 2:
+            polarity = TextBlob(content)
+            writer.add_document(title=document_title, content=content, sentiment=float(polarity.sentiment.polarity))
+        else:
+            polarity = sentiment_analyzer.polarity_scores(content)
+            writer.add_document(title=document_title, content=content, sentiment=float(polarity["compound"]))
 
-        #add document to index
-        writer.add_document(title=document_title, content=content, sentiment=float(polarity["compound"]))
 
     writer.commit()
 
     query = input("Insert a query: ")
     filter = input("Insert 1 for filter, any value for not filter: ")
     if filter == "1":
-        filter_value = float(input("Insert -1 for negative reviews or 1 for positive reviews: "))
+        filter_value = int(input("Insert -1 for negative reviews or 1 for positive reviews: "))
         sentiment_filter = SentimentFilter(filter_value)
 
     ix = open_dir("indexdir")
-    searcher = ix.searcher(weighting=SentimentWeighting())
-    parser = MultifieldParser(["content", "sentiment"], ix.schema)
+
+    # Crea un oggetto di scoring
+    scoringObject = scoring.FunctionWeighting(decoratorFn(ranking))
+
+    searcher = ix.searcher(weighting=scoringObject)
+    parser = QueryParser("content", ix.schema)
     query = parser.parse(query)
-    if(filter == "1"):
+
+    if filter == "1":
         query = And([query,sentiment_filter])
     results = searcher.search(query)
     print("Number of documents returned: " + str(len(results)))
