@@ -2,221 +2,581 @@
     "good": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 393.9249092243504
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.26222566592265
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 219.99476615428017
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.662276009462126
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 82.41948335947917
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.07581020568371
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 133.67085311546415
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.475860549223185
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.26222566592265
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.662276009462126
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.17892514028198
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 41.17892514028198
         }
     ],
     "good AND nice": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 91.8872562522914
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 5.3363067543177065
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 99.19379498867494
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 5.53483965853297
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 35.42872379714622,
+            "calculated_dcg": 10.098865286222745
         }
     ],
     "delicious AND cheap": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 0.0
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 0.0
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 0.0
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 0.0
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0
         }
     ],
     "delicious NOT expensive": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 238.738831038992
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 505.84990797862866
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 261.79258381197536
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 1265.3039565101858
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 0.0,
+            "calculated_dcg": 0.0
         }
     ],
     "sashimi AND 'poor quality'": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": -0.9971648914393708
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": -0.9978715808543529
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": -0.9964539692118252
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": -0.997308591937931
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         }
     ],
     "italian NOT (pizza OR pasta)": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 14.749089558851905
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 0.861680249958658
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 18.00608138676134
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 0.9422676720043668
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         }
     ],
     "(vegan AND options) NOT spicy": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 2674.123956077133
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 367.71024937413307
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 2020.2255187648302
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 297.89877058424395
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         }
     ],
     "\"best tacos in town\"": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 2679.2385117822023
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 684.7502246658921
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 16027.184939488041
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 3010.2548513566203
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 10.098865286222745,
+            "calculated_dcg": 10.098865286222745
         }
     ],
     "steak OR 'great wine'": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 2972827.7417778936
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.99940359353566
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 119141.71319236408
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.24383676880623
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 58313.87927381304
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.24383676880623
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 6189.560028422704
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.24383676880623
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.99940359353566
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.99940359353566
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.24383676880623
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 42.965566935343865,
+            "calculated_dcg": 42.24383676880623
         }
     ],
     "dinner OR lunch": [
         {
             "sentiment": "VADER",
-            "ranking": "TF-IDF",
-            "dcg": 83.559561396327
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "TF-IDF",
-            "dcg": 153.70912919456205
+            "irmodel": "TF-IDF",
+            "ranking_function": "Naive",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
         },
         {
             "sentiment": "VADER",
-            "ranking": "BM25F",
-            "dcg": 88.13335760567448
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
         },
         {
             "sentiment": "TextBlob",
-            "ranking": "BM25F",
-            "dcg": 245.4452395936848
+            "irmodel": "BM25F",
+            "ranking_function": "Naive",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "TF-IDF",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
+        },
+        {
+            "sentiment": "VADER",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
+        },
+        {
+            "sentiment": "TextBlob",
+            "irmodel": "BM25F",
+            "ranking_function": "Average Weighted",
+            "optimal_dcg": 28.31163846873992,
+            "calculated_dcg": 25.869317057639265
         }
     ]
 }

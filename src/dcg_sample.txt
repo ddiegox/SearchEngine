@@ -1,0 +1,37 @@
+"My sashimi was poor quality being soggy and tasteless."	0	0	0	0	3	0	0	0	0	0
+"Hands down my favorite Italian restaurant!"	0	0	0	0	0	3	0	0	0	1
+"The waitress was friendly and happy to accommodate for vegan/veggie options."	0	1	0	0	0	0	3	0	0	0
+"Best tacos in town by far!!"	0	0	0	0	0	0	0	3	0	0
+"Great steak, great sides, great wine, amazing desserts."	3	3	0	0	0	0	0	0	3	1
+"The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten."	3	3	0	0	0	0	0	0	3	1
+"Went in for happy hour, great list of wines."	2	2	0	0	0	0	0	0	2	0
+"Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!"	2	2	0	0	0	0	0	0	3	1
+"My ribeye steak was cooked perfectly and had great mesquite flavor."	2	2	0	0	0	0	0	0	3	0
+"The steaks are all well trimmed and also perfectly cooked."	2	2	0	0	0	0	0	0	3	0
+"The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!"	3	3	0	0	0	0	0	0	3	1
+"The steak and the shrimp are in my opinion the best entrees at GC."	3	3	0	0	0	0	0	0	3	1
+"Their monster chicken fried steak and eggs is my all time favorite."	2	2	0	0	0	0	0	0	3	1
+"Their steaks are 100% recommended!"	2	2	0	0	0	0	0	0	3	0
+"Today is the second time I've been to their lunch buffet and it was pretty good."	2	2	0	0	0	0	0	0	0	3
+"From what my dinner companions told me...everything was very fresh with nice texture and taste."	1	1	0	0	0	0	0	0	0	3
+"They have great dinners."	2	2	0	0	0	0	0	0	0	3
+"Just had lunch here and had a great experience."	2	2	0	0	0	0	0	0	1	3
+"Food was good, service was good, Prices were good."	3	2	0	0	0	0	0	0	0	0
+"They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good."	3	2	0	0	0	0	0	0	0	0
+"Service was good and the company was better!"	2	2	0	0	0	0	0	0	0	0
+"Good beer & drink selection and good food selection."	3	2	0	0	0	0	0	0	0	0
+"Good food, good service."	3	2	0	0	0	0	0	0	0	0
+"Good value, great food, great service."	3	2	0	0	0	0	0	0	0	0
+"The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc."	3	2	0	0	0	0	0	0	0	0
+"Best service and food ever, Maria our server was so good and friendly she made our day."	3	2	0	0	0	0	0	0	0	0
+"On the good side, the staff was genuinely pleasant and enthusiastic - a real treat."	2	2	0	0	0	0	0	0	0	0
+"Both of them were truly unbelievably good, and I am so glad we went back."	3	2	0	0	0	0	0	0	0	0
+"This place is pretty good, nice little vibe in the restaurant."	3	3	0	0	0	0	0	0	0	0
+"If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place."	3	2	0	0	0	0	0	0	0	0
+"I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious."	3	2	0	0	0	0	0	0	0	0
+"The food was delicious, our bartender was attentive and personable AND we got a great deal!"	3	2	0	0	0	0	0	0	0	1
+"Wow very spicy but delicious."	2	2	0	0	0	0	0	0	0	0
+"I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!"	3	2	0	0	0	0	0	0	0	0
+"As always the evening was wonderful and the food delicious!"	3	2	0	0	0	0	0	0	0	1
+"Delicious NYC bagels, good selections of cream cheese, real Lox with capers even."	3	2	0	0	0	0	0	0	0	1
+"The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside."	3	2	0	0	0	0	0	0	0	1
