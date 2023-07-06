@@ -1,5 +1,10 @@
 good
 good AND nice
-bad OR disgusting
-"loved this place"
+delicious AND cheap
+delicious NOT expensive
+sashimi AND 'poor quality'
+italian NOT (pizza OR pasta)
+(vegan AND options) NOT spicy
+"best tacos in town"
+steak OR 'great wine'
 dinner OR lunch

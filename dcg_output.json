@@ -1,0 +1,222 @@
+{
+    "good": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 393.9249092243504
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 219.99476615428017
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 82.41948335947917
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 133.67085311546415
+        }
+    ],
+    "good AND nice": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 91.8872562522914
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 5.3363067543177065
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 99.19379498867494
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 5.53483965853297
+        }
+    ],
+    "delicious AND cheap": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 0.0
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 0.0
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 0.0
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 0.0
+        }
+    ],
+    "delicious NOT expensive": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 238.738831038992
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 505.84990797862866
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 261.79258381197536
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 1265.3039565101858
+        }
+    ],
+    "sashimi AND 'poor quality'": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": -0.9971648914393708
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": -0.9978715808543529
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": -0.9964539692118252
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": -0.997308591937931
+        }
+    ],
+    "italian NOT (pizza OR pasta)": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 14.749089558851905
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 0.861680249958658
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 18.00608138676134
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 0.9422676720043668
+        }
+    ],
+    "(vegan AND options) NOT spicy": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 2674.123956077133
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 367.71024937413307
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 2020.2255187648302
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 297.89877058424395
+        }
+    ],
+    "\"best tacos in town\"": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 2679.2385117822023
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 684.7502246658921
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 16027.184939488041
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 3010.2548513566203
+        }
+    ],
+    "steak OR 'great wine'": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 2972827.7417778936
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 119141.71319236408
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 58313.87927381304
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 6189.560028422704
+        }
+    ],
+    "dinner OR lunch": [
+        {
+            "sentiment": "VADER",
+            "ranking": "TF-IDF",
+            "dcg": 83.559561396327
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "TF-IDF",
+            "dcg": 153.70912919456205
+        },
+        {
+            "sentiment": "VADER",
+            "ranking": "BM25F",
+            "dcg": 88.13335760567448
+        },
+        {
+            "sentiment": "TextBlob",
+            "ranking": "BM25F",
+            "dcg": 245.4452395936848
+        }
+    ]
+}

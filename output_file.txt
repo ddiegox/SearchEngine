@@ -3,13 +3,12 @@ Search Restaurant Reviews
 RUN
 
 Sentiment Analysis used library: 
-Vader
+VADER
 
 IR Model used: 
 TF_IDF
 
 Query to analize: good
-
 Number of documents returned: 105
 Document title: Review 761
 Content: Food was good, service was good, Prices were good.
@@ -65,7 +64,6 @@ DCG = 393.9249092243504
 -------------------------
 
 Query to analize: good AND nice
-
 Number of documents returned: 1
 Document title: Review 861
 Content: This place is pretty good, nice little vibe in the restaurant.
@@ -75,91 +73,159 @@ Weight: 6.537408773273974
 DCG = 91.8872562522914
 -------------------------
 
-Query to analize: bad OR disgusting
+Query to analize: delicious AND cheap
+Number of documents returned: 0
+DCG = 0.0
+-------------------------
 
-Number of documents returned: 36
-Document title: Review 232
-Content: If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.
-Sentiment: 0.5647
-Weight: 4.9483472355809335
+Query to analize: delicious NOT expensive
+Number of documents returned: 24
+Document title: Review 534
+Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
+Sentiment: 0.8979
+Weight: 5.108044861848903
+-------------------------
+Document title: Review 104
+Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
+Sentiment: 0.8531
+Weight: 4.853183062304598
+-------------------------
+Document title: Review 107
+Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
+Sentiment: 0.8439
+Weight: 4.8008453713267505
+-------------------------
+Document title: Review 439
+Content: Wow very spicy but delicious.
+Sentiment: 0.8336
+Weight: 4.742249912949377
+-------------------------
+Document title: Review 501
+Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
+Sentiment: 0.8313
+Weight: 4.729165490204915
+-------------------------
+Document title: Review 358
+Content: As always the evening was wonderful and the food delicious!
+Sentiment: 0.8268
+Weight: 4.703565532661402
+-------------------------
+Document title: Review 135
+Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
+Sentiment: 0.765
+Weight: 4.351992782397161
+-------------------------
+Document title: Review 722
+Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
+Sentiment: 0.765
+Weight: 4.351992782397161
+-------------------------
+Document title: Review 90
+Content: Everything was fresh and delicious!
+Sentiment: 0.7424
+Weight: 4.223424106734186
+-------------------------
+Document title: Review 449
+Content: The food is delicious and just spicy enough, so be sure to ask for spicier if you prefer it that way.
+Sentiment: 0.7414
+Weight: 4.217735227280071
+-------------------------
+DCG = 238.738831038992
+-------------------------
+
+Query to analize: sashimi AND 'poor quality'
+Number of documents returned: 1
+Document title: Review 771
+Content: My sashimi was poor quality being soggy and tasteless.
+Sentiment: -0.4767
+Weight: -8.462380305444242
+-------------------------
+DCG = -0.9971648914393708
+-------------------------
+
+Query to analize: italian NOT (pizza OR pasta)
+Number of documents returned: 1
+Document title: Review 657
+Content: Hands down my favorite Italian restaurant!
+Sentiment: 0.5093
+Weight: 3.977196524966934
+-------------------------
+DCG = 14.749089558851905
+-------------------------
+
+Query to analize: (vegan AND options) NOT spicy
+Number of documents returned: 1
+Document title: Review 592
+Content: The waitress was friendly and happy to accomodate for vegan/veggie options.
+Sentiment: 0.7845
+Weight: 11.385390027269143
+-------------------------
+DCG = 2674.123956077133
+-------------------------
+
+Query to analize: "best tacos in town"
+Number of documents returned: 1
+Document title: Review 376
+Content: Best tacos in town by far!!
+Sentiment: 0.6988
+Weight: 11.388145675066916
+-------------------------
+DCG = 2679.2385117822023
+-------------------------
+
+Query to analize: steak OR 'great wine'
+Number of documents returned: 15
+Document title: Review 538
+Content: Great steak, great sides, great wine, amazing desserts.
+Sentiment: 0.9524
+Weight: 21.40043037957249
 -------------------------
 Document title: Review 124
 Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
 Sentiment: 0.8481
-Weight: 3.715860891177784
+Weight: 17.639479506199866
 -------------------------
-Document title: Review 322
-Content: Also, the fries are without a doubt the worst fries I've ever had.
-Sentiment: 0.6602
-Weight: 2.8925968168324174
+Document title: Review 857
+Content: Went in for happy hour, great list of wines.
+Sentiment: 0.8316
+Weight: 8.178034521923864
 -------------------------
-Document title: Review 15
-Content: I was disgusted because I was pretty sure that was human hair.
-Sentiment: 0.2732
-Weight: 1.7207003045409235
+Document title: Review 348
+Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!!
+Sentiment: 0.7762
+Weight: 8.072022162900799
 -------------------------
-Document title: Review 453
-Content: I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.
-Sentiment: -0.0
-Weight: -0.0
+Document title: Review 450
+Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
+Sentiment: 0.8519
+Weight: 4.4296287558459095
 -------------------------
-Document title: Review 977
-Content: too bad cause I know it's family owned, I really wanted to like this place.
-Sentiment: -0.1868
-Weight: -0.8184445401155643
+Document title: Review 478
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 0.743
+Weight: 3.863380872864786
 -------------------------
-Document title: Review 850
-Content: Bad day or not, I have a very low tolerance for rude customer service people, it is your job to be nice and polite, wash dishes otherwise!!
-Sentiment: -0.1962
-Weight: -0.8596296508066046
+Document title: Review 689
+Content: The steak was amazing...rge fillet relleno was the best seafood plate i have ever had!
+Sentiment: 0.6696
+Weight: 3.481722520148399
 -------------------------
-Document title: Review 225
-Content: It was either too cold, not enough flavor or just bad.
-Sentiment: -0.5423
-Weight: -2.376030375292669
--------------------------
-Document title: Review 455
-Content: The last 3 times I had lunch here has been bad.
-Sentiment: -0.5423
-Weight: -2.376030375292669
--------------------------
-Document title: Review 737
-Content: Friend's pasta -- also bad, he barely touched it.
-Sentiment: -0.5423
-Weight: -2.376030375292669
--------------------------
-DCG = 47.43236220476652
--------------------------
-
-Query to analize: "loved this place"
-
-Number of documents returned: 5
-Document title: Review 335
-Content: I love this place.
+Document title: Review 540
+Content: The steak and the shrimp are in my opinion the best entrees at GC.
 Sentiment: 0.6369
-Weight: 4.839040190047672
+Weight: 3.311692164101726
 -------------------------
-Document title: Review 815
-Content: I love this place.
-Sentiment: 0.6369
-Weight: 4.839040190047672
+Document title: Review 499
+Content: Their monster chicken fried steak and eggs is my all time favorite.
+Sentiment: 0.4588
+Weight: 2.3856246897313107
 -------------------------
-Document title: Review 1
-Content: Wow... Loved this place.
-Sentiment: 0.5994
-Weight: 4.554122609380711
+Document title: Review 584
+Content: Their steaks are 100% recommended!
+Sentiment: 0.2714
+Weight: 1.4111999581366121
 -------------------------
-Document title: Review 460
-Content: We loved the place.
-Sentiment: 0.5994
-Weight: 4.554122609380711
--------------------------
-Document title: Review 185
-Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
-Sentiment: 0.5574
-Weight: 4.235014919033714
--------------------------
-DCG = 118.05902413512732
+DCG = 2972827.7417778936
 -------------------------
 
 Query to analize: dinner OR lunch
@@ -225,7 +291,6 @@ IR Model used:
 TF_IDF
 
 Query to analize: good
-
 Number of documents returned: 105
 Document title: Review 761
 Content: Food was good, service was good, Prices were good.
@@ -281,7 +346,6 @@ DCG = 219.99476615428017
 -------------------------
 
 Query to analize: good AND nice
-
 Number of documents returned: 1
 Document title: Review 861
 Content: This place is pretty good, nice little vibe in the restaurant.
@@ -291,91 +355,159 @@ Weight: 2.6636421810962285
 DCG = 5.3363067543177065
 -------------------------
 
-Query to analize: bad OR disgusting
+Query to analize: delicious AND cheap
+Number of documents returned: 0
+DCG = 0.0
+-------------------------
 
-Number of documents returned: 36
+Query to analize: delicious NOT expensive
+Number of documents returned: 24
+Document title: Review 63
+Content: The cocktails are all handmade and delicious.
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 166
+Content: DELICIOUS!!
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 191
+Content: you can watch them preparing the delicious food!)
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 218
+Content: The Jamaican mojitos are delicious.
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 295
+Content: I didn't know pulled pork could be soooo delicious.
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 355
+Content: It was delicious!!!
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 358
+Content: As always the evening was wonderful and the food delicious!
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 559
+Content: All of the tapas dishes were delicious!
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 568
+Content: Food was delicious!
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+Document title: Review 805
+Content: They were golden-crispy and delicious.
+Sentiment: 1.0
+Weight: 5.688879454113936
+-------------------------
+DCG = 505.84990797862866
+-------------------------
+
+Query to analize: sashimi AND 'poor quality'
+Number of documents returned: 1
+Document title: Review 771
+Content: My sashimi was poor quality being soggy and tasteless.
+Sentiment: -0.5
+Weight: -8.876001998577975
+-------------------------
+DCG = -0.9978715808543529
+-------------------------
+
+Query to analize: italian NOT (pizza OR pasta)
+Number of documents returned: 1
+Document title: Review 657
+Content: Hands down my favorite Italian restaurant!
+Sentiment: 0.11481481481481481
+Weight: 0.8966053062953143
+-------------------------
+DCG = 0.861680249958658
+-------------------------
+
+Query to analize: (vegan AND options) NOT spicy
+Number of documents returned: 1
+Document title: Review 592
+Content: The waitress was friendly and happy to accomodate for vegan/veggie options.
+Sentiment: 0.5875
+Weight: 8.526343710670009
+-------------------------
+DCG = 367.71024937413307
+-------------------------
+
+Query to analize: "best tacos in town"
+Number of documents returned: 1
+Document title: Review 376
+Content: Best tacos in town by far!!
+Sentiment: 0.578125
+Weight: 9.421539379504953
+-------------------------
+DCG = 684.7502246658921
+-------------------------
+
+Query to analize: steak OR 'great wine'
+Number of documents returned: 15
+Document title: Review 538
+Content: Great steak, great sides, great wine, amazing desserts.
+Sentiment: 0.7500000000000001
+Weight: 16.852501873875863
+-------------------------
 Document title: Review 124
 Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
 Sentiment: 0.4
-Weight: 1.7525579017463906
+Weight: 8.319528124607883
 -------------------------
-Document title: Review 850
-Content: Bad day or not, I have a very low tolerance for rude customer service people, it is your job to be nice and polite, wash dishes otherwise!!
-Sentiment: -0.015624999999999944
-Weight: -0.06845929303696813
+Document title: Review 857
+Content: Went in for happy hour, great list of wines.
+Sentiment: 0.8
+Weight: 7.867277077367835
 -------------------------
-Document title: Review 15
-Content: I was disgusted because I was pretty sure that was human hair.
-Sentiment: -0.0625
-Weight: -0.39364483540925227
+Document title: Review 348
+Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!!
+Sentiment: 0.607763671875
+Weight: 6.320383701598775
 -------------------------
-Document title: Review 453
-Content: I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.
-Sentiment: -0.11999999999999995
-Weight: -1.051534741047834
+Document title: Review 478
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 1.0
+Weight: 5.199705077879927
 -------------------------
-Document title: Review 977
-Content: too bad cause I know it's family owned, I really wanted to like this place.
-Sentiment: -0.24999999999999992
-Weight: -1.0953486885914936
+Document title: Review 540
+Content: The steak and the shrimp are in my opinion the best entrees at GC.
+Sentiment: 1.0
+Weight: 5.199705077879927
 -------------------------
-Document title: Review 737
-Content: Friend's pasta -- also bad, he barely touched it.
-Sentiment: -0.3249999999999999
-Weight: -1.4239532951689418
+Document title: Review 689
+Content: The steak was amazing...rge fillet relleno was the best seafood plate i have ever had!
+Sentiment: 1.0
+Weight: 5.199705077879927
 -------------------------
-Document title: Review 47
-Content: It's too bad the food is so damn generic.
-Sentiment: -0.3499999999999999
-Weight: -1.5334881640280913
+Document title: Review 702
+Content: I wasn't really impressed with Strip Steak.
+Sentiment: 1.0
+Weight: 5.199705077879927
 -------------------------
-Document title: Review 455
-Content: The last 3 times I had lunch here has been bad.
-Sentiment: -0.3499999999999999
-Weight: -1.5334881640280913
+Document title: Review 450
+Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
+Sentiment: 0.9
+Weight: 4.679734570091934
 -------------------------
-Document title: Review 127
-Content: Bland... Not a liking this place for a number of reasons and I don't want to waste time on bad reviewing.. I'll leave it at that...
-Sentiment: -0.35555555555555546
-Weight: -1.557829245996791
--------------------------
-Document title: Review 493
-Content: Worse of all, he humiliated his worker right in front of me..Bunch of horrible name callings.
-Sentiment: -0.37142857142857144
-Weight: -1.627375194478791
--------------------------
-DCG = -2.2381975116822135
--------------------------
-
-Query to analize: "loved this place"
-
-Number of documents returned: 5
-Document title: Review 460
-Content: We loved the place.
+Document title: Review 685
+Content: Damn good steak.
 Sentiment: 0.7
-Weight: 5.3184615057832785
+Weight: 3.6397935545159488
 -------------------------
-Document title: Review 185
-Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
-Sentiment: 0.5
-Weight: 3.7989010755594848
--------------------------
-Document title: Review 335
-Content: I love this place.
-Sentiment: 0.5
-Weight: 3.7989010755594848
--------------------------
-Document title: Review 815
-Content: I love this place.
-Sentiment: 0.5
-Weight: 3.7989010755594848
--------------------------
-Document title: Review 1
-Content: Wow... Loved this place.
-Sentiment: 0.39999999999999997
-Weight: 3.0391208604475874
--------------------------
-DCG = 84.87851097593864
+DCG = 119141.71319236408
 -------------------------
 
 Query to analize: dinner OR lunch
@@ -435,13 +567,12 @@ DCG = 153.70912919456205
 RUN
 
 Sentiment Analysis used library: 
-Vader
+VADER
 
 IR Model used: 
 BM25F
 
 Query to analize: good
-
 Number of documents returned: 105
 Document title: Review 761
 Content: Food was good, service was good, Prices were good.
@@ -497,7 +628,6 @@ DCG = 82.41948335947917
 -------------------------
 
 Query to analize: good AND nice
-
 Number of documents returned: 1
 Document title: Review 861
 Content: This place is pretty good, nice little vibe in the restaurant.
@@ -507,91 +637,159 @@ Weight: 6.646649354832209
 DCG = 99.19379498867494
 -------------------------
 
-Query to analize: bad OR disgusting
-
-Number of documents returned: 36
-Document title: Review 232
-Content: If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.
-Sentiment: 0.5647
-Weight: 2.879326176420523
+Query to analize: delicious AND cheap
+Number of documents returned: 0
+DCG = 0.0
 -------------------------
-Document title: Review 322
-Content: Also, the fries are without a doubt the worst fries I've ever had.
-Sentiment: 0.6602
-Weight: 2.6398283869056427
+
+Query to analize: delicious NOT expensive
+Number of documents returned: 24
+Document title: Review 166
+Content: DELICIOUS!!
+Sentiment: 0.6467
+Weight: 5.333385546889425
+-------------------------
+Document title: Review 439
+Content: Wow very spicy but delicious.
+Sentiment: 0.8336
+Weight: 5.319199953744579
+-------------------------
+Document title: Review 355
+Content: It was delicious!!!
+Sentiment: 0.6784
+Weight: 5.202581836943934
+-------------------------
+Document title: Review 90
+Content: Everything was fresh and delicious!
+Sentiment: 0.7424
+Weight: 5.012109223593738
+-------------------------
+Document title: Review 358
+Content: As always the evening was wonderful and the food delicious!
+Sentiment: 0.8268
+Weight: 5.0067321455919425
+-------------------------
+Document title: Review 485
+Content: Delicious and I will absolutely be back!
+Sentiment: 0.6114
+Weight: 4.387504622809966
+-------------------------
+Document title: Review 568
+Content: Food was delicious!
+Sentiment: 0.6114
+Weight: 4.387504622809966
+-------------------------
+Document title: Review 218
+Content: The Jamaican mojitos are delicious.
+Sentiment: 0.5719
+Weight: 4.104046277044519
+-------------------------
+Document title: Review 107
+Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
+Sentiment: 0.8439
+Weight: 3.9743136258641965
+-------------------------
+Document title: Review 534
+Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
+Sentiment: 0.8979
+Weight: 3.957109101550251
+-------------------------
+DCG = 261.79258381197536
+-------------------------
+
+Query to analize: sashimi AND 'poor quality'
+Number of documents returned: 1
+Document title: Review 771
+Content: My sashimi was poor quality being soggy and tasteless.
+Sentiment: -0.4767
+Weight: -8.139579222268022
+-------------------------
+DCG = -0.9964539692118252
+-------------------------
+
+Query to analize: italian NOT (pizza OR pasta)
+Number of documents returned: 1
+Document title: Review 657
+Content: Hands down my favorite Italian restaurant!
+Sentiment: 0.5093
+Weight: 4.248389207271366
+-------------------------
+DCG = 18.00608138676134
+-------------------------
+
+Query to analize: (vegan AND options) NOT spicy
+Number of documents returned: 1
+Document title: Review 592
+Content: The waitress was friendly and happy to accomodate for vegan/veggie options.
+Sentiment: 0.7845
+Weight: 10.981014584436242
+-------------------------
+DCG = 2020.2255187648302
+-------------------------
+
+Query to analize: "best tacos in town"
+Number of documents returned: 1
+Document title: Review 376
+Content: Best tacos in town by far!!
+Sentiment: 0.6988
+Weight: 13.968323440908398
+-------------------------
+DCG = 16027.184939488041
+-------------------------
+
+Query to analize: steak OR 'great wine'
+Number of documents returned: 15
+Document title: Review 538
+Content: Great steak, great sides, great wine, amazing desserts.
+Sentiment: 0.9524
+Weight: 15.817349750474351
+-------------------------
+Document title: Review 857
+Content: Went in for happy hour, great list of wines.
+Sentiment: 0.8316
+Weight: 8.817564306625247
 -------------------------
 Document title: Review 124
 Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
 Sentiment: 0.8481
-Weight: 1.975405029491867
+Weight: 5.4363990880730535
 -------------------------
-Document title: Review 15
-Content: I was disgusted because I was pretty sure that was human hair.
-Sentiment: 0.2732
-Weight: 1.5703375883053377
+Document title: Review 348
+Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!!
+Sentiment: 0.7762
+Weight: 5.024942550210801
 -------------------------
-Document title: Review 453
-Content: I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.
-Sentiment: -0.0
-Weight: -0.0
+Document title: Review 478
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 0.743
+Weight: 3.927938251479089
 -------------------------
-Document title: Review 850
-Content: Bad day or not, I have a very low tolerance for rude customer service people, it is your job to be nice and polite, wash dishes otherwise!!
-Sentiment: -0.1962
-Weight: -0.5775500042013344
+Document title: Review 450
+Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
+Sentiment: 0.8519
+Weight: 3.8456796766415753
 -------------------------
-Document title: Review 977
-Content: too bad cause I know it's family owned, I really wanted to like this place.
-Sentiment: -0.1868
-Weight: -0.7105506370543742
--------------------------
-Document title: Review 127
-Content: Bland... Not a liking this place for a number of reasons and I don't want to waste time on bad reviewing.. I'll leave it at that...
-Sentiment: -0.5496
-Weight: -1.8240787861344339
--------------------------
-Document title: Review 959
-Content: My husband said she was very rude... did not even apologize for the bad food or anything.
-Sentiment: -0.5853
-Weight: -1.9425642531377079
--------------------------
-Document title: Review 849
-Content: To my disbelief, each dish qualified as the worst version of these foods I have ever tasted.
-Sentiment: -0.6249
-Weight: -2.166030558299194
--------------------------
-DCG = 13.53935273012676
--------------------------
-
-Query to analize: "loved this place"
-
-Number of documents returned: 5
-Document title: Review 335
-Content: I love this place.
+Document title: Review 540
+Content: The steak and the shrimp are in my opinion the best entrees at GC.
 Sentiment: 0.6369
-Weight: 6.88247074552907
+Weight: 3.367030783804888
 -------------------------
-Document title: Review 815
-Content: I love this place.
-Sentiment: 0.6369
-Weight: 6.88247074552907
+Document title: Review 689
+Content: The steak was amazing...rge fillet relleno was the best seafood plate i have ever had!
+Sentiment: 0.6696
+Weight: 2.7544559238876487
 -------------------------
-Document title: Review 460
-Content: We loved the place.
-Sentiment: 0.5994
-Weight: 6.477238129800792
+Document title: Review 499
+Content: Their monster chicken fried steak and eggs is my all time favorite.
+Sentiment: 0.4588
+Weight: 2.071132569131535
 -------------------------
-Document title: Review 1
-Content: Wow... Loved this place.
-Sentiment: 0.5994
-Weight: 5.998659837817383
+Document title: Review 584
+Content: Their steaks are 100% recommended!
+Sentiment: 0.2714
+Weight: 1.7309312698911152
 -------------------------
-Document title: Review 185
-Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
-Sentiment: 0.5574
-Weight: 3.3503996553372053
--------------------------
-DCG = 394.20457534267734
+DCG = 58313.87927381304
 -------------------------
 
 Query to analize: dinner OR lunch
@@ -657,7 +855,6 @@ IR Model used:
 BM25F
 
 Query to analize: good
-
 Number of documents returned: 105
 Document title: Review 110
 Content: Sooooo good!!
@@ -713,7 +910,6 @@ DCG = 133.67085311546415
 -------------------------
 
 Query to analize: good AND nice
-
 Number of documents returned: 1
 Document title: Review 861
 Content: This place is pretty good, nice little vibe in the restaurant.
@@ -723,91 +919,159 @@ Weight: 2.7081518379063647
 DCG = 5.53483965853297
 -------------------------
 
-Query to analize: bad OR disgusting
+Query to analize: delicious AND cheap
+Number of documents returned: 0
+DCG = 0.0
+-------------------------
 
-Number of documents returned: 36
+Query to analize: delicious NOT expensive
+Number of documents returned: 24
+Document title: Review 166
+Content: DELICIOUS!!
+Sentiment: 1.0
+Weight: 8.247078315895198
+-------------------------
+Document title: Review 355
+Content: It was delicious!!!
+Sentiment: 1.0
+Weight: 7.668900113419714
+-------------------------
+Document title: Review 218
+Content: The Jamaican mojitos are delicious.
+Sentiment: 1.0
+Weight: 7.17616065228977
+-------------------------
+Document title: Review 568
+Content: Food was delicious!
+Sentiment: 1.0
+Weight: 7.17616065228977
+-------------------------
+Document title: Review 63
+Content: The cocktails are all handmade and delicious.
+Sentiment: 1.0
+Weight: 6.7512247085044965
+-------------------------
+Document title: Review 191
+Content: you can watch them preparing the delicious food!)
+Sentiment: 1.0
+Weight: 6.380998025125454
+-------------------------
+Document title: Review 559
+Content: All of the tapas dishes were delicious!
+Sentiment: 1.0
+Weight: 6.380998025125454
+-------------------------
+Document title: Review 805
+Content: They were golden-crispy and delicious.
+Sentiment: 1.0
+Weight: 6.380998025125454
+-------------------------
+Document title: Review 358
+Content: As always the evening was wonderful and the food delicious!
+Sentiment: 1.0
+Weight: 6.055554119003317
+-------------------------
+Document title: Review 295
+Content: I didn't know pulled pork could be soooo delicious.
+Sentiment: 1.0
+Weight: 5.7672309747528
+-------------------------
+DCG = 1265.3039565101858
+-------------------------
+
+Query to analize: sashimi AND 'poor quality'
+Number of documents returned: 1
+Document title: Review 771
+Content: My sashimi was poor quality being soggy and tasteless.
+Sentiment: -0.5
+Weight: -8.537423140620959
+-------------------------
+DCG = -0.997308591937931
+-------------------------
+
+Query to analize: italian NOT (pizza OR pasta)
+Number of documents returned: 1
+Document title: Review 657
+Content: Hands down my favorite Italian restaurant!
+Sentiment: 0.11481481481481481
+Weight: 0.9577420382763006
+-------------------------
+DCG = 0.9422676720043668
+-------------------------
+
+Query to analize: (vegan AND options) NOT spicy
+Number of documents returned: 1
+Document title: Review 592
+Content: The waitress was friendly and happy to accomodate for vegan/veggie options.
+Sentiment: 0.5875
+Weight: 8.223513152780487
+-------------------------
+DCG = 297.89877058424395
+-------------------------
+
+Query to analize: "best tacos in town"
+Number of documents returned: 1
+Document title: Review 376
+Content: Best tacos in town by far!!
+Sentiment: 0.578125
+Weight: 11.55614909741724
+-------------------------
+DCG = 3010.2548513566203
+-------------------------
+
+Query to analize: steak OR 'great wine'
+Number of documents returned: 15
+Document title: Review 538
+Content: Great steak, great sides, great wine, amazing desserts.
+Sentiment: 0.7500000000000001
+Weight: 12.455913810222349
+-------------------------
+Document title: Review 857
+Content: Went in for happy hour, great list of wines.
+Sentiment: 0.8
+Weight: 8.482505345478833
+-------------------------
+Document title: Review 702
+Content: I wasn't really impressed with Strip Steak.
+Sentiment: 1.0
+Weight: 5.967225864754936
+-------------------------
+Document title: Review 478
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 1.0
+Weight: 5.286592532273336
+-------------------------
+Document title: Review 540
+Content: The steak and the shrimp are in my opinion the best entrees at GC.
+Sentiment: 1.0
+Weight: 5.286592532273336
+-------------------------
+Document title: Review 685
+Content: Damn good steak.
+Sentiment: 0.7
+Weight: 4.794311722843681
+-------------------------
+Document title: Review 689
+Content: The steak was amazing...rge fillet relleno was the best seafood plate i have ever had!
+Sentiment: 1.0
+Weight: 4.113584115722295
+-------------------------
+Document title: Review 450
+Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
+Sentiment: 0.9
+Weight: 4.062814542760204
+-------------------------
+Document title: Review 348
+Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!!
+Sentiment: 0.607763671875
+Weight: 3.934524008344554
+-------------------------
 Document title: Review 124
 Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
 Sentiment: 0.4
-Weight: 0.9316849567229654
+Weight: 2.5640368296536042
 -------------------------
-Document title: Review 850
-Content: Bad day or not, I have a very low tolerance for rude customer service people, it is your job to be nice and polite, wash dishes otherwise!!
-Sentiment: -0.015624999999999944
-Weight: -0.045994999060376233
--------------------------
-Document title: Review 15
-Content: I was disgusted because I was pretty sure that was human hair.
-Sentiment: -0.0625
-Weight: -0.3592463370025022
--------------------------
-Document title: Review 453
-Content: I am far from a sushi connoisseur but I can definitely tell the difference between good food and bad food and this was certainly bad food.
-Sentiment: -0.11999999999999995
-Weight: -0.5260181738490199
--------------------------
-Document title: Review 977
-Content: too bad cause I know it's family owned, I really wanted to like this place.
-Sentiment: -0.24999999999999992
-Weight: -0.9509510667215926
--------------------------
-Document title: Review 232
-Content: If the food isn't bad enough for you, then enjoy dealing with the world's worst/annoying drunk people.
-Sentiment: -0.19999999999999996
-Weight: -1.019771976773693
--------------------------
-Document title: Review 127
-Content: Bland... Not a liking this place for a number of reasons and I don't want to waste time on bad reviewing.. I'll leave it at that...
-Sentiment: -0.35555555555555546
-Weight: -1.1800606735464554
--------------------------
-Document title: Review 493
-Content: Worse of all, he humiliated his worker right in front of me..Bunch of horrible name callings.
-Sentiment: -0.37142857142857144
-Weight: -1.232741953615494
--------------------------
-Document title: Review 737
-Content: Friend's pasta -- also bad, he barely touched it.
-Sentiment: -0.3249999999999999
-Weight: -1.4477476594913856
--------------------------
-Document title: Review 455
-Content: The last 3 times I had lunch here has been bad.
-Sentiment: -0.3499999999999999
-Weight: -1.4749926081065838
--------------------------
-DCG = -3.0461803220889285
--------------------------
-
-Query to analize: "loved this place"
-
-Number of documents returned: 5
-Document title: Review 460
-Content: We loved the place.
-Sentiment: 0.7
-Weight: 7.564342160261185
--------------------------
-Document title: Review 335
-Content: I love this place.
-Sentiment: 0.5
-Weight: 5.403101543043704
--------------------------
-Document title: Review 815
-Content: I love this place.
-Sentiment: 0.5
-Weight: 5.403101543043704
--------------------------
-Document title: Review 1
-Content: Wow... Loved this place.
-Sentiment: 0.39999999999999997
-Weight: 4.003109668213135
--------------------------
-Document title: Review 185
-Content: Love this place, hits the spot when I want something healthy but not lacking in quantity or flavor.
-Sentiment: 0.5
-Weight: 3.0053818221539337
--------------------------
-DCG = 292.969950377739
+DCG = 6189.560028422704
 -------------------------
 
 Query to analize: dinner OR lunch
