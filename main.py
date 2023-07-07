@@ -122,7 +122,7 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--test', default=0, type=int, help="Se presente, indica che lo script deve essere attivato in modalità test")
     parser.add_argument('-s', '--sentiment', default=1, type=int, help="Indica la libreria di Sentiment Analysis da utilizzare (1-VADER, 2-Textblob), default: VADER")
     parser.add_argument('-i', '--irmodel', default=1, type=int, help="Indica l'IR Model da utilizzare per la ricerca (1-TF-IDF (modello vettoriale), 2-BM25 (modello probabilistico)), default: TF-IDF")
-    parser.add_argument('-r', '--ranking', default=1, type=int, help="Indica la funzione di ranking da utilizzare per combinare il risultato con la sentiment analysis (1-naive, 2-weighted_avg, 3-balanced_weighted_avg), default: NAIVE")
+    parser.add_argument('-r', '--ranking', default=1, type=int, help="Indica la funzione di ranking da utilizzare per combinare il risultato con la sentiment analysis (1-naive, 2-weighted_avg), default: NAIVE")
     args = parser.parse_args()
 
     sentiment = int(args.sentiment)
