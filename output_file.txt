@@ -9,135 +9,75 @@ IR Model used:
 TF_IDF
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.8271
-Weight: 4.892777664669773
+Weight: 9.785555329339546
 -------------------------
 Document num: 19
 Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
 Sentiment: 0.7383
-Weight: 2.911649336900571
+Weight: 8.416433915982708
 -------------------------
 Document num: 20
 Content: Service was good and the company was better!
 Sentiment: 0.7263
-Weight: 2.864324682907876
+Weight: 5.728649365815752
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7003
-Weight: 2.76178793259037
+Weight: 5.52357586518074
 -------------------------
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7003
-Weight: 2.76178793259037
+Weight: 5.52357586518074
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.926
-Weight: 1.8259428998848226
+Weight: 3.6518857997696452
 -------------------------
 Document num: 24
 Content: The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc.
 Sentiment: 0.9162
-Weight: 1.8066186661711385
+Weight: 3.613237332342277
 -------------------------
 Document num: 25
 Content: Best service and food ever, Maria our server was so good and friendly she made our day.
 Sentiment: 0.9082
-Weight: 1.790843781506907
+Weight: 3.581687563013814
 -------------------------
 Document num: 26
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.9022
-Weight: 1.7790126180087331
+Weight: 3.5580252360174662
 -------------------------
 Document num: 27
 Content: Both of them were truly unbelievably good, and I am so glad we went back.
 Sentiment: 0.8738
-Weight: 1.7230117774507105
+Weight: 3.446023554901421
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.836
-Weight: 4.584762949056247
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.8979
-Weight: 3.0651552457730578
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.8531
-Weight: 2.912221784351259
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.8439
-Weight: 2.8808158056664253
--------------------------
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.8336
-Weight: 2.8456547643127528
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.8313
-Weight: 2.8378032696415447
--------------------------
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 0.8268
-Weight: 2.8224416496326583
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.765
-Weight: 2.611475401510624
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.765
-Weight: 2.611475401510624
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.4767
-Weight: -5.6028039239537275
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.5093
-Weight: 2.504620633850523
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.7845
-Weight: 6.931482278640233
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -147,81 +87,11 @@ Sentiment: 0.6988
 Weight: 7.445504295420208
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.9524
-Weight: 12.502521935026058
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.8481
-Weight: 7.830788257381267
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8316
-Weight: 4.786772695541622
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.7762
-Weight: 3.5834558692249376
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.8519
-Weight: 1.9664687290599874
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 0.743
-Weight: 1.715091285000083
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 0.6696
-Weight: 1.5456596560377598
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 0.6369
-Weight: 1.4701771728351989
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: 0.4588
-Weight: 1.059063097655502
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.2714
-Weight: 0.6264815272530585
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.7269
-Weight: 2.553094958068238
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.6865
-Weight: 2.4111978108596026
--------------------------
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.6249
-Weight: 2.1948397844226744
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.6249
-Weight: 2.1948397844226744
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -231,135 +101,75 @@ IR Model used:
 TF_IDF
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.6999999999999998
-Weight: 4.140907224360827
+Weight: 8.281814448721654
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7
-Weight: 2.7606048162405523
+Weight: 5.521209632481105
 -------------------------
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7
-Weight: 2.7606048162405523
--------------------------
-Document num: 20
-Content: Service was good and the company was better!
-Sentiment: 0.6625
-Weight: 2.61271527251338
+Weight: 5.521209632481105
 -------------------------
 Document num: 19
 Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
 Sentiment: 0.47
-Weight: 1.8535489480472278
+Weight: 5.3578815393632295
+-------------------------
+Document num: 20
+Content: Service was good and the company was better!
+Sentiment: 0.6625
+Weight: 5.22543054502676
+-------------------------
+Document num: 9
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 1.0
+Weight: 3.917770732084279
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.7666666666666666
-Weight: 1.5117597803222071
+Weight: 3.0235195606444143
+-------------------------
+Document num: 17
+Content: Just had lunch here and had a great experience.
+Sentiment: 0.8
+Weight: 2.809844499180892
 -------------------------
 Document num: 25
 Content: Best service and food ever, Maria our server was so good and friendly she made our day.
 Sentiment: 0.6916666666666668
-Weight: 1.363870236595035
+Weight: 2.72774047319007
 -------------------------
 Document num: 35
 Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
 Sentiment: 0.6333333333333333
-Weight: 1.248845035918345
--------------------------
-Document num: 26
-Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
-Sentiment: 0.5583333333333333
-Weight: 1.1009554921911726
--------------------------
-Document num: 24
-Content: The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc.
-Sentiment: 0.415
-Weight: 0.8183221419570208
+Weight: 2.49769007183669
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.34062499999999996
-Weight: 1.8680441142611053
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 1.0
-Weight: 3.413693335308005
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.85
-Weight: 2.901639335011804
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.7999999999999999
-Weight: 2.7309546682464036
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.6333333333333333
-Weight: 2.162005779028403
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.46666666666666673
-Weight: 1.5930568898104025
--------------------------
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.45
-Weight: 1.536162000888602
--------------------------
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.43333333333333335
-Weight: 1.4792671119668022
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.010000000000000009
-Weight: 0.03413693335308008
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.5
-Weight: -5.876656098126419
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.11481481481481481
-Weight: 0.5646329359059727
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.5875
-Weight: 5.190880610199027
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -369,81 +179,11 @@ Sentiment: 0.578125
 Weight: 6.1597483840724205
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.7500000000000001
-Weight: 9.84553911305076
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8
-Weight: 4.604879937990979
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.4
-Weight: 3.6933325114402864
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.5162109375
-Weight: 2.3831732977872746
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 1.0
-Weight: 2.308332819650179
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 1.0
-Weight: 2.308332819650179
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 1.0
-Weight: 2.308332819650179
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.9
-Weight: 2.0774995376851613
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.0
-Weight: 0.0
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: -0.04999999999999999
-Weight: -0.11541664098250892
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.8
-Weight: 2.809844499180892
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.8
-Weight: 2.809844499180892
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.495
-Weight: 1.7385912838681767
--------------------------
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.31666666666666665
-Weight: 1.112230114259103
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -453,135 +193,75 @@ IR Model used:
 BM25F
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
+Document num: 19
+Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
+Sentiment: 0.7383
+Weight: 5.67425186649615
+-------------------------
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.8271
-Weight: 2.5852342671711686
+Weight: 5.170468534342337
 -------------------------
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7003
-Weight: 2.263877276645
+Weight: 4.52775455329
 -------------------------
 Document num: 20
 Content: Service was good and the company was better!
 Sentiment: 0.7263
-Weight: 2.1912270397152747
+Weight: 4.382454079430549
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.926
-Weight: 2.1415345057183495
+Weight: 4.283069011436699
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7003
-Weight: 2.0445586770165716
+Weight: 4.089117354033143
 -------------------------
 Document num: 28
 Content: This place is pretty good, nice little vibe in the restaurant.
 Sentiment: 0.836
-Weight: 1.839295756437424
+Weight: 3.678591512874848
 -------------------------
 Document num: 26
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.9022
-Weight: 1.8088681840541647
+Weight: 3.6177363681083294
 -------------------------
-Document num: 19
-Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
-Sentiment: 0.7383
-Weight: 1.7580899341848424
+Document num: 9
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 0.743
+Weight: 3.247857131564955
 -------------------------
 Document num: 27
 Content: Both of them were truly unbelievably good, and I am so glad we went back.
 Sentiment: 0.8738
-Weight: 1.5461939472268398
--------------------------
-Document num: 24
-Content: The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc.
-Sentiment: 0.9162
-Weight: 1.4017407152709092
+Weight: 3.0923878944536796
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.836
-Weight: 5.115475058914849
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.8336
-Weight: 3.320650853426742
--------------------------
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 0.8268
-Weight: 3.1673635817016006
--------------------------
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.8979
-Weight: 2.701544014633329
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.8439
-Weight: 2.671784713818913
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.8531
-Weight: 2.5667526438174546
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.765
-Weight: 2.4219875649620435
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.765
-Weight: 2.4219875649620435
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.8313
-Weight: 2.388129551828799
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.4767
-Weight: -5.961227199367632
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.5093
-Weight: 2.8494870823190808
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.7845
-Weight: 7.324717800019449
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -591,81 +271,11 @@ Sentiment: 0.6988
 Weight: 9.727704910360753
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.9524
-Weight: 9.518576789173123
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8316
-Weight: 5.614107045285719
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.8481
-Weight: 2.6474861628365187
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.7762
-Weight: 2.4185396610081495
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.8519
-Weight: 1.9145545565162538
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 0.743
-Weight: 1.9136227520740476
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 0.6369
-Weight: 1.6403584532920068
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 0.6696
-Weight: 1.3870419435984787
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: 0.4588
-Weight: 1.031104156039039
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.2714
-Weight: 0.8185110352643932
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.6249
-Weight: 3.0409086958770772
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.6249
-Weight: 2.4489048398542383
--------------------------
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.7269
-Weight: 2.2910928541075504
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.6865
-Weight: 2.0822493312332817
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -675,135 +285,75 @@ IR Model used:
 BM25F
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7
-Weight: 2.2629074591625016
+Weight: 4.525814918325003
 -------------------------
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.6999999999999998
-Weight: 2.1879627457620816
+Weight: 4.375925491524163
+-------------------------
+Document num: 9
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 1.0
+Weight: 4.371274739656736
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7
-Weight: 2.0436828129538767
+Weight: 4.087365625907753
 -------------------------
 Document num: 20
 Content: Service was good and the company was better!
 Sentiment: 0.6625
-Weight: 1.9987442018606216
--------------------------
-Document num: 23
-Content: Good value, great food, great service.
-Sentiment: 0.7666666666666666
-Weight: 1.7730487268366464
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.6333333333333333
-Weight: 1.1206868466205062
--------------------------
-Document num: 26
-Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
-Sentiment: 0.5583333333333333
-Weight: 1.1194318363595381
+Weight: 3.9974884037212433
 -------------------------
 Document num: 19
 Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
 Sentiment: 0.47
-Weight: 1.1191958134455857
+Weight: 3.6122150579076133
 -------------------------
-Document num: 25
-Content: Best service and food ever, Maria our server was so good and friendly she made our day.
-Sentiment: 0.6916666666666668
-Weight: 1.05821581320932
+Document num: 23
+Content: Good value, great food, great service.
+Sentiment: 0.7666666666666666
+Weight: 3.5460974536732928
 -------------------------
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.34062499999999996
-Weight: 0.7494140155938965
+Document num: 17
+Content: Just had lunch here and had a great experience.
+Sentiment: 0.8
+Weight: 3.1350998109831822
+-------------------------
+Document num: 35
+Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
+Sentiment: 0.6333333333333333
+Weight: 2.2413736932410124
+-------------------------
+Document num: 26
+Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
+Sentiment: 0.5583333333333333
+Weight: 2.2388636727190763
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.34062499999999996
-Weight: 2.0842807319890793
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 1.0
-Weight: 3.830870321361394
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.85
-Weight: 2.5574255623547493
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.7999999999999999
-Weight: 2.532797453555078
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.6333333333333333
-Weight: 2.00513131739777
--------------------------
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.43333333333333335
-Weight: 1.7261860642413485
--------------------------
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.45
-Weight: 1.3539311800701614
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.46666666666666673
-Weight: 1.3406236707808328
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.010000000000000009
-Weight: 0.0316599681694385
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.5
-Weight: -6.252598279177294
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.11481481481481481
-Weight: 0.6423784246488754
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.5875
-Weight: 5.485368652022213
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -813,81 +363,11 @@ Sentiment: 0.578125
 Weight: 8.047838296082299
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.7500000000000001
-Weight: 7.495729306887697
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8
-Weight: 5.400776378341241
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 1.0
-Weight: 2.5755353325357304
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 1.0
-Weight: 2.5755353325357304
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 1.0
-Weight: 2.0714485418137376
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.9
-Weight: 2.0226541857784115
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.5162109375
-Weight: 1.6084470829553583
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.4
-Weight: 1.2486669792885363
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.0
-Weight: 0.0
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: -0.04999999999999999
-Weight: -0.11236967698768949
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.8
-Weight: 3.8929860084840167
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.8
-Weight: 3.1350998109831822
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.495
-Weight: 1.5014033779467946
--------------------------
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.31666666666666665
-Weight: 0.9980915354712582
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -897,135 +377,75 @@ IR Model used:
 TF_IDF
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.8271
-Weight: 3.880189049452139
+Weight: 7.429538098904278
 -------------------------
 Document num: 19
 Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
 Sentiment: 0.7383
-Weight: 2.661552699634759
+Weight: 7.135168773655187
 -------------------------
 Document num: 20
 Content: Service was good and the company was better!
 Sentiment: 0.7263
-Weight: 2.656752699634759
+Weight: 5.022985399269518
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7003
-Weight: 2.6463526996347593
+Weight: 5.012585399269518
 -------------------------
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7003
-Weight: 2.6463526996347593
+Weight: 5.012585399269518
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.926
-Weight: 1.5535163498173796
+Weight: 2.736632699634759
 -------------------------
 Document num: 24
 Content: The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc.
 Sentiment: 0.9162
-Weight: 1.5495963498173797
+Weight: 2.7327126996347593
 -------------------------
 Document num: 25
 Content: Best service and food ever, Maria our server was so good and friendly she made our day.
 Sentiment: 0.9082
-Weight: 1.5463963498173796
+Weight: 2.729512699634759
 -------------------------
 Document num: 26
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.9022
-Weight: 1.5439963498173797
+Weight: 2.727112699634759
 -------------------------
 Document num: 27
 Content: Both of them were truly unbelievably good, and I am so glad we went back.
 Sentiment: 0.8738
-Weight: 1.5326363498173796
+Weight: 2.715752699634759
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.836
-Weight: 3.6248997242030483
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.8979
-Weight: 2.407376001184803
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.8531
-Weight: 2.389456001184803
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.8439
-Weight: 2.385776001184803
--------------------------
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.8336
-Weight: 2.381656001184803
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.8313
-Weight: 2.380736001184803
--------------------------
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 0.8268
-Weight: 2.378936001184803
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.765
-Weight: 2.354216001184803
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.765
-Weight: 2.354216001184803
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.4767
-Weight: 6.861307317751701
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.5093
-Weight: 3.154382439250567
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.7845
-Weight: 5.615124878501134
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -1035,81 +455,11 @@ Sentiment: 0.6988
 Weight: 6.672339944550837
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.9524
-Weight: 8.257391290440607
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.8481
-Weight: 5.879238767160429
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8316
-Weight: 3.7862999534932333
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.7762
-Weight: 3.0804793835802147
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.8519
-Weight: 1.7257596917901072
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 0.743
-Weight: 1.6821996917901072
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 0.6696
-Weight: 1.6528396917901074
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 0.6369
-Weight: 1.6397596917901074
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: 0.4588
-Weight: 1.5685196917901072
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.2714
-Weight: 1.4935596917901073
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.7269
-Weight: 2.398143374385669
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.6865
-Weight: 2.3819833743856687
--------------------------
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.6249
-Weight: 2.357343374385669
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.6249
-Weight: 2.357343374385669
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -1119,135 +469,75 @@ IR Model used:
 TF_IDF
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.6999999999999998
-Weight: 3.8293490494521385
--------------------------
-Document num: 21
-Content: Good beer & drink selection and good food selection.
-Sentiment: 0.7
-Weight: 2.646232699634759
--------------------------
-Document num: 22
-Content: Good food, good service.
-Sentiment: 0.7
-Weight: 2.646232699634759
--------------------------
-Document num: 20
-Content: Service was good and the company was better!
-Sentiment: 0.6625
-Weight: 2.6312326996347593
+Weight: 7.378698098904278
 -------------------------
 Document num: 19
 Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
 Sentiment: 0.47
-Weight: 2.5542326996347593
+Weight: 7.027848773655187
+-------------------------
+Document num: 21
+Content: Good beer & drink selection and good food selection.
+Sentiment: 0.7
+Weight: 5.0124653992695185
+-------------------------
+Document num: 22
+Content: Good food, good service.
+Sentiment: 0.7
+Weight: 5.0124653992695185
+-------------------------
+Document num: 20
+Content: Service was good and the company was better!
+Sentiment: 0.6625
+Weight: 4.997465399269518
+-------------------------
+Document num: 9
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 1.0
+Weight: 2.750662439250567
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.7666666666666666
-Weight: 1.4897830164840462
+Weight: 2.6728993663014258
 -------------------------
 Document num: 25
 Content: Best service and food ever, Maria our server was so good and friendly she made our day.
 Sentiment: 0.6916666666666668
-Weight: 1.4597830164840464
+Weight: 2.642899366301426
 -------------------------
 Document num: 35
 Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
 Sentiment: 0.6333333333333333
-Weight: 1.436449683150713
+Weight: 2.6195660329680925
 -------------------------
 Document num: 26
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.5583333333333333
-Weight: 1.406449683150713
--------------------------
-Document num: 24
-Content: The food was very good and I enjoyed every mouthful, an enjoyable relaxed venue for couples small family groups etc.
-Sentiment: 0.415
-Weight: 1.3491163498173795
+Weight: 2.5895660329680923
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.34062499999999996
-Weight: 3.4267497242030482
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 1.0
-Weight: 2.448216001184803
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.85
-Weight: 2.388216001184803
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.7999999999999999
-Weight: 2.368216001184803
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.6333333333333333
-Weight: 2.3015493345181364
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.46666666666666673
-Weight: 2.2348826678514695
--------------------------
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.45
-Weight: 2.228216001184803
--------------------------
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.43333333333333335
-Weight: 2.2215493345181363
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.010000000000000009
-Weight: 2.052216001184803
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.5
-Weight: 6.851987317751702
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.11481481481481481
-Weight: 2.9965883651764926
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.5875
-Weight: 5.5363248785011345
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -1257,81 +547,11 @@ Sentiment: 0.578125
 Weight: 6.624069944550837
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.7500000000000001
-Weight: 8.176431290440608
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.4
-Weight: 5.699998767160429
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8
-Weight: 3.773659953493233
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.5162109375
-Weight: 2.9764837585802146
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 1.0
-Weight: 1.7849996917901074
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 1.0
-Weight: 1.7849996917901074
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 1.0
-Weight: 1.7849996917901074
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.9
-Weight: 1.7449996917901074
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.0
-Weight: 1.3849996917901073
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: -0.04999999999999999
-Weight: 1.3649996917901073
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.8
-Weight: 2.427383374385669
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.8
-Weight: 2.427383374385669
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.495
-Weight: 2.3053833743856686
--------------------------
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.31666666666666665
-Weight: 2.234050041052335
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -1341,135 +561,75 @@ IR Model used:
 BM25F
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
+Document num: 19
+Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
+Sentiment: 0.7383
+Weight: 4.906658371796953
+-------------------------
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7003
-Weight: 2.21975496499643
+Weight: 4.15938992999286
 -------------------------
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.8271
-Weight: 2.2062366392246417
+Weight: 4.081633278449284
 -------------------------
 Document num: 20
 Content: Service was good and the company was better!
 Sentiment: 0.7263
-Weight: 2.1007034281001857
+Weight: 3.910886856200371
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7003
-Weight: 2.0318481253890375
+Weight: 3.783576250778075
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.926
-Weight: 1.7580033514373754
--------------------------
-Document num: 19
-Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
-Sentiment: 0.7383
-Weight: 1.7240806129092583
+Weight: 3.1456067028747507
 -------------------------
 Document num: 28
 Content: This place is pretty good, nice little vibe in the restaurant.
 Sentiment: 0.836
-Weight: 1.6544687247158545
+Weight: 2.974537449431709
+-------------------------
+Document num: 9
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 0.743
+Weight: 2.919964843794042
 -------------------------
 Document num: 26
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.9022
-Weight: 1.5638515256401007
+Weight: 2.766823051280201
 -------------------------
-Document num: 27
-Content: Both of them were truly unbelievably good, and I am so glad we went back.
-Sentiment: 0.8738
-Weight: 1.411223328377322
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.765
-Weight: 1.367703328377322
+Document num: 17
+Content: Just had lunch here and had a great experience.
+Sentiment: 0.6249
+Weight: 2.6012848582373866
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.836
-Weight: 4.005793582953242
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.8336
-Weight: 2.7235437812572516
--------------------------
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 0.8268
-Weight: 2.6292421928168364
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.8439
-Weight: 2.237158090166308
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.765
-Weight: 2.2055980901663084
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.765
-Weight: 2.2055980901663084
--------------------------
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.8979
-Weight: 2.1644015734268818
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.8531
-Weight: 2.1464815734268816
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.8313
-Weight: 2.056179005289642
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.4767
-Weight: 7.312437935012752
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.5093
-Weight: 3.5606653159070265
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.7845
-Weight: 5.915878623341834
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -1479,81 +639,11 @@ Sentiment: 0.6988
 Weight: 8.631871096474601
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.9524
-Weight: 6.377543445510157
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8316
-Weight: 4.383222283755931
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.8481
-Weight: 2.212240468932804
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.7762
-Weight: 2.1800030566927204
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.2714
-Weight: 1.9180906601276195
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 0.743
-Weight: 1.8425211995214381
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 0.6369
-Weight: 1.8000811995214383
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.8519
-Weight: 1.6891961238522741
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: 0.4588
-Weight: 1.5319561238522743
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 0.6696
-Weight: 1.5107091250882425
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.6249
-Weight: 3.1696995063630125
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.6249
-Weight: 2.6012848582373866
--------------------------
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.7269
-Weight: 2.181880804050805
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.6865
-Weight: 2.094482882359751
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0
 RUN
 
 Sentiment Analysis used library: 
@@ -1563,135 +653,75 @@ IR Model used:
 BM25F
 
 Query to analize: good
-Number of documents returned: 13
+Number of documents returned: 15
+Document num: 19
+Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
+Sentiment: 0.47
+Weight: 4.799338371796953
+-------------------------
 Document num: 22
 Content: Good food, good service.
 Sentiment: 0.7
-Weight: 2.21963496499643
+Weight: 4.15926992999286
 -------------------------
 Document num: 18
 Content: Food was good, service was good, Prices were good.
 Sentiment: 0.6999999999999998
-Weight: 2.1553966392246418
+Weight: 4.030793278449284
 -------------------------
 Document num: 20
 Content: Service was good and the company was better!
 Sentiment: 0.6625
-Weight: 2.0751834281001855
+Weight: 3.8853668562003714
 -------------------------
 Document num: 21
 Content: Good beer & drink selection and good food selection.
 Sentiment: 0.7
-Weight: 2.031728125389037
+Weight: 3.7834562507780745
 -------------------------
 Document num: 23
 Content: Good value, great food, great service.
 Sentiment: 0.7666666666666666
-Weight: 1.694270018104042
+Weight: 3.0818733695414173
 -------------------------
-Document num: 19
-Content: They could serve it with just the vinaigrette and it may make for a better overall dish, but it was still very good.
-Sentiment: 0.47
-Weight: 1.6167606129092582
+Document num: 9
+Content: The steaks are all well trimmed and also perfectly cooked.
+Sentiment: 1.0
+Weight: 3.0227648437940418
 -------------------------
 Document num: 28
 Content: This place is pretty good, nice little vibe in the restaurant.
 Sentiment: 0.34062499999999996
-Weight: 1.4563187247158544
+Weight: 2.776387449431709
+-------------------------
+Document num: 17
+Content: Just had lunch here and had a great experience.
+Sentiment: 0.8
+Weight: 2.6713248582373863
 -------------------------
 Document num: 26
 Content: On the good side, the staff was genuinely pleasant and enthusiastic - a real treat.
 Sentiment: 0.5583333333333333
-Weight: 1.426304858973434
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.6333333333333333
-Weight: 1.3150366617106553
--------------------------
-Document num: 27
-Content: Both of them were truly unbelievably good, and I am so glad we went back.
-Sentiment: 0.39999999999999997
-Weight: 1.2217033283773218
+Weight: 2.6292763846135343
 -------------------------
 
 Query to analize: good AND nice
-Number of documents returned: 1
-Document num: 28
-Content: This place is pretty good, nice little vibe in the restaurant.
-Sentiment: 0.34062499999999996
-Weight: 3.8076435829532413
--------------------------
+Number of documents returned: 0
 
 Query to analize: delicious AND cheap
 Number of documents returned: 0
 
 Query to analize: delicious NOT expensive
-Number of documents returned: 8
-Document num: 34
-Content: As always the evening was wonderful and the food delicious!
-Sentiment: 1.0
-Weight: 2.6985221928168364
--------------------------
-Document num: 32
-Content: Wow very spicy but delicious.
-Sentiment: 0.43333333333333335
-Weight: 2.563437114590585
--------------------------
-Document num: 31
-Content: The food was delicious, our bartender was attentive and personable AND we got a great deal!
-Sentiment: 0.7999999999999999
-Weight: 2.219598090166308
--------------------------
-Document num: 35
-Content: Delicious NYC bagels, good selections of cream cheese, real Lox with capers even.
-Sentiment: 0.6333333333333333
-Weight: 2.1529314234996417
--------------------------
-Document num: 30
-Content: I LOVED their mussels cooked in this wine reduction, the duck was tender, and their potato dishes were delicious.
-Sentiment: 0.85
-Weight: 2.1452415734268815
--------------------------
-Document num: 29
-Content: If you love authentic Mexican food and want a whole bunch of interesting, yet delicious meats to choose from, you need to try this place.
-Sentiment: 0.45
-Weight: 1.9852415734268816
--------------------------
-Document num: 33
-Content: I also had to taste my Mom's multi-grain pumpkin pancakes with pecan butter and they were amazing, fluffy, and delicious!
-Sentiment: 0.46666666666666673
-Weight: 1.9103256719563086
--------------------------
-Document num: 36
-Content: The chicken was deliciously seasoned and had the perfect fry on the outside and moist chicken on the inside.
-Sentiment: 0.010000000000000009
-Weight: 1.9035980901663083
--------------------------
+Number of documents returned: 0
 
 Query to analize: sashimi AND 'poor quality'
-Number of documents returned: 1
-Document num: 0
-Content: My sashimi was poor quality being soggy and tasteless.
-Sentiment: -0.5
-Weight: 7.303117935012752
--------------------------
+Number of documents returned: 0
 
 Query to analize: italian NOT (pizza OR pasta)
-Number of documents returned: 1
-Document num: 1
-Content: Hands down my favorite Italian restaurant!
-Sentiment: 0.11481481481481481
-Weight: 3.402871241832952
--------------------------
+Number of documents returned: 0
 
 Query to analize: (vegan AND options) NOT spicy
-Number of documents returned: 1
-Document num: 2
-Content: The waitress was friendly and happy to accommodate for vegan/veggie options.
-Sentiment: 0.5875
-Weight: 5.837078623341835
--------------------------
+Number of documents returned: 0
 
 Query to analize: "best tacos in town"
 Number of documents returned: 1
@@ -1701,78 +731,8 @@ Sentiment: 0.578125
 Weight: 8.5836010964746
 -------------------------
 
-Query to analize: steak OR 'great wine'
-Number of documents returned: 10
-Document num: 4
-Content: Great steak, great sides, great wine, amazing desserts.
-Sentiment: 0.7500000000000001
-Weight: 6.296583445510157
--------------------------
-Document num: 6
-Content: Went in for happy hour, great list of wines.
-Sentiment: 0.8
-Weight: 4.3705822837559305
--------------------------
-Document num: 7
-Content: Classy/warm atmosphere, fun and fresh appetizers, succulent steaks (Baseball steak!!!!
-Sentiment: 0.5162109375
-Weight: 2.0760074316927204
--------------------------
-Document num: 5
-Content: The guys all had steaks, and our steak loving son who has had steak at the best and worst places said it was the best steak he's ever eaten.
-Sentiment: 0.4
-Weight: 2.033000468932804
--------------------------
-Document num: 9
-Content: The steaks are all well trimmed and also perfectly cooked.
-Sentiment: 1.0
-Weight: 1.9453211995214383
--------------------------
-Document num: 11
-Content: The steak and the shrimp are in my opinion the best entrees at GC.
-Sentiment: 1.0
-Weight: 1.9453211995214383
--------------------------
-Document num: 13
-Content: Their steaks are 100% recommended!
-Sentiment: 0.0
-Weight: 1.8095306601276195
--------------------------
-Document num: 8
-Content: My ribeye steak was cooked perfectly and had great mesquite flavor.
-Sentiment: 0.9
-Weight: 1.7084361238522743
--------------------------
-Document num: 10
-Content: The steak was amazing...rge fillet relleno was the best seafood plate I have ever had!
-Sentiment: 1.0
-Weight: 1.6428691250882426
--------------------------
-Document num: 12
-Content: Their monster chicken fried steak and eggs is my all time favorite.
-Sentiment: -0.04999999999999999
-Weight: 1.3284361238522742
--------------------------
+Query to analize: steak 'great wine'
+Number of documents returned: 0
 
-Query to analize: dinner OR lunch
-Number of documents returned: 4
-Document num: 16
-Content: They have great dinners.
-Sentiment: 0.8
-Weight: 3.239739506363012
--------------------------
-Document num: 17
-Content: Just had lunch here and had a great experience.
-Sentiment: 0.8
-Weight: 2.6713248582373863
--------------------------
-Document num: 15
-Content: From what my dinner companions told me...everything was very fresh with nice texture and taste.
-Sentiment: 0.495
-Weight: 2.017882882359751
--------------------------
-Document num: 14
-Content: Today is the second time I've been to their lunch buffet and it was pretty good.
-Sentiment: 0.31666666666666665
-Weight: 2.0177874707174714
--------------------------
+Query to analize: dinner lunch
+Number of documents returned: 0

@@ -6,5 +6,5 @@ sashimi AND 'poor quality'
 italian NOT (pizza OR pasta)
 (vegan AND options) NOT spicy
 "best tacos in town"
-steak OR 'great wine'
-dinner OR lunch
+steak 'great wine'
+dinner lunch

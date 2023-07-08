@@ -1,7 +1,8 @@
+from nltk.corpus import wordnet
 from whoosh.index import create_in, open_dir
 from whoosh.fields import *
 from whoosh.qparser import QueryParser, MultifieldParser
-from whoosh.query import NumericRange, And
+from whoosh.query import NumericRange, And, Or, AndMaybe
 from whoosh import scoring
 
 from LemmaFilter import LemmaFilter
@@ -27,6 +28,21 @@ def calculate_dcg(ordered_documents, num_query):
         value = value + float(2 ** d[num_query] - 1) / log(1+count)
         count = count+1
     return value
+
+def ottieni_sinonimi(testo):
+    sinonimi = set()
+
+    # Trova i lemmi della parola di input
+    lemmi = set()
+    for parola in nltk.word_tokenize(testo):
+        lemmi.update([lemma.name() for lemma in wordnet.synsets(parola)])
+
+    # Trova i sinonimi per ogni lemma
+    for lemma in lemmi:
+        sinonimi.update([sinonimo.replace("_", " ") for sinonimo in wordnet.synset(lemma).lemma_names()])
+
+    return list(sinonimi)
+
 def run_query(f, text_query, filter, irmodel, sentiment, ranking, sentiment_filter=None):
     f.write("\nQuery to analize: "+text_query)
     ix = open_dir("indexdir")
@@ -34,16 +50,33 @@ def run_query(f, text_query, filter, irmodel, sentiment, ranking, sentiment_filt
     if text_query not in dcg_output:
         dcg_output[text_query] = []
 
+    expand = True
+    if text_query[0] == '"' and text_query[-1] == '"':
+        expand = False
+
     # Crea un oggetto di scoring
     scoringObject = SentimentWeighting(irmodel, ranking)
-
     searcher = ix.searcher(weighting=scoringObject)
     parser = QueryParser("content", ix.schema)
-    query = parser.parse(text_query)
+
+    if(expand):
+        query = text_query.split()
+        expansion_query = [ottieni_sinonimi(word) for word in query]
+
+        full_query=None
+        for word_list in expansion_query:
+            term_query = Or([parser.parse(term) for term in word_list])
+            if full_query is None:
+                full_query = term_query
+            else:
+                full_query = And([full_query, term_query])
+    else:
+        full_query = parser.parse(text_query)
 
     if filter == "1":
-        query = And([query, sentiment_filter])
-    results = searcher.search(query)
+        full_query = And([full_query, sentiment_filter])
+
+    results = searcher.search(full_query)
 
     f.write("\nNumber of documents returned: " + str(len(results)) + "\n")
     for hit in results:
@@ -94,14 +127,13 @@ def run(f, documents_list, schema, irmodel=1, sentiment=1, ranking = 1, test_que
 
     if test_query is None:
         query = input("Insert a query: ")
-        query = query.strip()
         filter = input("Insert 1 for filter, any value for not filter: ")
         sentiment_filter = None
         if filter == "1":
             filter_value = int(input("Insert -1 for negative reviews or 1 for positive reviews: "))
             sentiment_filter = SentimentFilter(filter_value)
 
-        results = run_query(f, query, filter, irmodel,sentiment,ranking,sentiment_filter)
+        results = run_query(f, query , filter, irmodel,sentiment,ranking,sentiment_filter)
     else:
         num_query = 0
         for query in test_query:
@@ -131,7 +163,8 @@ if __name__ == '__main__':
     ranking = int(args.ranking)
 
     nltk.download('wordnet')
-    nltk.download('VADER_lexicon')
+    nltk.download('vader_lexicon')
+    nltk.download('punkt')
 
     test_query = None
     documents_list = []
